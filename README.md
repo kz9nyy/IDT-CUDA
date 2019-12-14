@@ -22,5 +22,5 @@ I tested using a NVIDIA RTX 2080 and it is blazing fast compared to the original
 
 ## Compiling
 In order to compile the improved trajectories code, you need to have the following libraries installed in your system:
-**OpenCV-4.0.1** (needs to be compiled with non_free and gpu modules)
-**NVIDIA_CUDA-10.0**
+* **OpenCV-4.0.1** (needs to be compiled with non_free and gpu modules)
+* **NVIDIA_CUDA-10.0**
