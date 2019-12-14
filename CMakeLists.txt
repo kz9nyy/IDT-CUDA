@@ -1,0 +1,8 @@
+cmake_minimum_required(VERSION 2.8)
+project( DenseTrackStab )
+find_package( OpenCV REQUIRED )
+include_directories( ${OpenCV_INCLUDE_DIRS} include/ )
+add_executable( DenseTrackStab DenseTrackStab.cpp )
+target_link_libraries( DenseTrackStab ${OpenCV_LIBS} )
+# message(STATUS "OpenCV_INCLUDE_DIRS = ${OpenCV_INCLUDE_DIRS}")
+# message(STATUS "OpenCV_LIBS = ${OpenCV_LIBS}")
