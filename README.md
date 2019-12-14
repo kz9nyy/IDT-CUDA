@@ -16,7 +16,7 @@ Please cite the original work when using this code:
 }
 ```
 I modified Weng's original work merely as an exercise to learn more about optical flow as well as how to use the OpenCV GPU module.  
-Therefore, my hope is that this repo may serve as a useful reference to anyone interested in optical flow and the CUDA library.  
+My hope is that this repo may serve as a useful reference to anyone interested in optical flow and the CUDA library.  
 
 Many of the functions used in the original original work can now be calculated on the GPU.  
 I tested using a NVIDIA RTX 2080 and it is blazing fast compared to the original implementation!  
